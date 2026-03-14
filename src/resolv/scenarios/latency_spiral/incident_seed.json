@@ -1,0 +1,22 @@
+{
+  "incident_id": "inc-001",
+  "title": "Checkout API latency spiral after config rollout",
+  "service_name": "checkout-api",
+  "environment": "staging",
+  "severity": "critical",
+  "symptom_summary": "P95 latency and timeout rate spiked after a configuration rollout.",
+  "suspected_category": "application",
+  "recent_change_summary": "Config update increased retry aggressiveness and reduced backoff window.",
+  "logs": [
+    "timeout contacting payment gateway after 2.0s",
+    "retry attempt 4 for upstream payment request",
+    "request queue length exceeded threshold"
+  ],
+  "metric_snapshot": {
+    "p95_latency_ms": 1850,
+    "error_rate_percent": 14.2,
+    "cpu_percent": 72,
+    "memory_percent": 68,
+    "timeout_count": 47
+  }
+}
