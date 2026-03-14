@@ -2,7 +2,7 @@
 
 **Resolv** is an agentic AI DevOps and SRE system that turns incidents into safe, reviewable, and verifiable fixes.
 
-*Built for **Azure AI Dev Days 2026**, Resolv detects an incident, diagnoses the likely root cause, proposes a remediation plan, generates a patch artifact, verifies the fix through replayable evidence, and produces an audit-ready incident summary.
+*Built for **Azure AI Dev Days 2026**, Resolv detects an incident, diagnoses the likely root cause, proposes a remediation plan, generates a patch artifact, verifies the fix through replayable evidence, and produces an audit-ready incident summary.*
 
 ## Why this project exists
 
